@@ -52,7 +52,7 @@ const App = () => {
     setSearchQuery(data.trim());
     setCurrentPage(1);
     setHits([]);
-    setStatus('pending');
+    setError(null);
   };
 
   const handleModalOpen = largeImageUrl => {
